@@ -1,6 +1,6 @@
 "use strict";
 
-import { parse } from "textlint-plugin-markdown/lib/markdown-to-ast";
+import { parse } from "markdown-to-ast";
 
 export default class ErbProcessor {
   constructor(config) {

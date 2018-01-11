@@ -1,6 +1,6 @@
 {
   "name": "textlint-plugin-md-erb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A textlint plugin to support the erb file with markdown format",
   "main": "lib/index.js",
   "files": [
@@ -31,6 +31,6 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "textlint-plugin-markdown": "^4.0.4"
+    "markdown-to-ast": "^6.0.2"
   }
 }
