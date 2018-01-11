@@ -7,7 +7,7 @@ Install
 --
 
 ```
-npm install moznion/textlint-plugin-md-erb
+npm install textlint-plugin-md-erb
 ```
 
 Usage
