@@ -2,15 +2,13 @@
 
 import { parse } from "markdown-to-ast";
 
-export default class ErbProcessor {
+export class ErbProcessor {
   constructor(config) {
     this.config = config;
   }
 
   static availableExtensions() {
-    return [
-      ".md.erb"
-    ];
+    return [".md.erb"];
   }
 
   processor(ext) {
