@@ -8,13 +8,16 @@ export class MdErbProcessor {
   }
 
   static availableExtensions() {
-    return [".md.erb"];
+    return [".erb"];
   }
 
   processor(ext) {
     return {
       preProcess(text, filePath) {
-        return parse(text);
+        if (filePath.endsWith(".md.erb")) {
+          return parse(text);
+        }
+        return parse('');
       },
       postProcess(messages, filePath) {
         return {
