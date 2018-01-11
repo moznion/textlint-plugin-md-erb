@@ -2,7 +2,7 @@
 
 import { parse } from "markdown-to-ast";
 
-export class ErbProcessor {
+export class MdErbProcessor {
   constructor(config) {
     this.config = config;
   }
