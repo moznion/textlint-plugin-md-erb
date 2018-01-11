@@ -1,0 +1,16 @@
+{
+  "name": "textlint-plugin-md-erb",
+  "version": "0.0.1",
+  "description": "A textlint plugin to support the erb file with markdown format",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -s -d lib src"
+  },
+  "repository": "git@github.com:moznion/textlint-plugin-md-erb.git",
+  "author": "moznion <moznion@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
