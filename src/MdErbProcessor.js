@@ -1,6 +1,6 @@
 "use strict";
 
-import { parse } from "markdown-to-ast";
+import { parse } from "@textlint/markdown-to-ast";
 
 export class MdErbProcessor {
   constructor(config) {
